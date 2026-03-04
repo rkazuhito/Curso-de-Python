@@ -1,0 +1,8 @@
+var=input('Digite algo: ')
+print('O tipo primitivo da variável é {}'.format(type(var)))
+print('Só tem espaços? ',var.isspace())
+print('É numérico? ',var.isnumeric())
+print('É alfabético? ',var.isalpha())
+print('É alfanumérico? ',var.isalnum())
+print('´Maiuscula? ',var.isupper())
+print('Minuscula? ',var.islower())
