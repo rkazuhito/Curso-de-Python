@@ -1,0 +1,15 @@
+import time
+print('** ** * ** **'*2)
+print('Contagem pros fogos!!')
+print('** ** * ** **'*2)
+for c in range(10,0,-1):
+    print(c)
+    print('*'*c)
+    time.sleep(1)
+print('** ** * ** **'*2)
+print('** ** * ** **'*2)
+print('** ** * ** **'*2)
+print('BOOOM!!!')
+print('** ** * ** **'*2)
+print('** ** * ** **'*2)
+print('** ** * ** **'*2)
