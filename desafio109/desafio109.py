@@ -1,0 +1,10 @@
+import moeda
+preco=float(input('Digite o preço R$ '))
+metade=moeda.metade(preco,True)
+print(f'A metade de R${preco} é R${metade}')
+dobro=moeda.dobro(preco,True)
+print(f'O dobro de R${preco} é R${dobro}')
+aumento=moeda.aumentar(preco, 10,True)
+print(f'Aumentando 10%, temos R${aumento}')
+diminui=aumento=moeda.diminuir(preco, 10,True)
+print(f'Diminuindo 10%¨, temos R${diminui}')
